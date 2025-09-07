@@ -18,6 +18,9 @@ trusted_sender = false
 trusted_caller = false
 callee_filter = false
 
+[repl.settings]
+allow_block_height = true
+
 [repl.remote_data]
 enabled = false
 api_url = 'https://api.hiro.so'
